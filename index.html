@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baba fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+     /*css reset*/
+     body{
+        font-family: 'Baloo 2', cursive;
+         color: white;
+         margin: 0px;
+         padding: 0px;
+         background: url();
+         background: url(https://wallpapercave.com/download/gym-body-wallpapers-wp4250286);
+     }
+     .left{
+          display: inline-block;
+          /*border: 2px solid red;*/
+          position: absolute;
+          left: 34px;
+          top: 20px;
+     }
+     .mid{
+         display: block;
+       width: 50%;
+       margin: 20px auto;
+       /*border: 2px solid green;*/
+     }
+     .right{
+       position: absolute;
+       right: 34px;
+       top: 20px;
+       display: inline-block;
+       /*border: 2px solid yellow;*/
+     }
+     .navbar{
+         display: inline-block;
+     }
+
+     .navbar li{
+         display: inline-block;
+         color: white;
+         font-size: 25px;
+     }
+     .navbar li a{
+         color: white;
+         padding: 30px 23px;
+         text-decoration: none;
+     }
+     .navbar li a:hover, .navbar li a.active{
+         text-decoration: underline;
+         color: rgb(194, 22, 22);
+     }
+     .left img{
+       width: 120px;
+       height: 60px;
+     }
+     .left div{
+         text-align:center ;
+         font-size: 20px;
+     }
+     .btn{
+        font-family: 'Baloo 2', cursive;
+         margin: 0px 9px;
+         color: white;
+         background-color: black;
+         padding: 4px 14px;
+         /*border: 2px solid grey;*/
+         border-radius: 10px;
+         font size: 25px;
+         cursor: pointer;
+     }
+     .btn:hover{
+         background-color: grey;
+     }
+     .containor{
+         border: 2px solid green;
+         margin: 170px 80px;
+         padding: 75px;
+         width: 33%;
+          border-radius:28px ;
+     }
+     .form-group input{
+        font-family: 'Baloo 2', cursive;
+         text-align: center;
+         display: block;
+         width: 500px;
+         padding: 12px;
+         /*border: 2px solid black;*/
+         margin: 6px auto;
+         border-radius: 3px;
+         font-size: 20px;
+     }
+     .containor h1{
+         text-align: center;
+     }
+     .containor button{
+         display: block;
+         width: 23%;
+         margin: auto;
+     } 
+
+</style>
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+         <img src="https://images.unsplash.com/photo-1544133782-b62779394064?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwYm9keXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+         <div>Baba Fitness</div>
+        </div>
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!--right box for buttons-->
+        <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="containor">
+        <h1>Join the best gym in Hissar Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
